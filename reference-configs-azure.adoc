@@ -152,6 +152,8 @@ Conversely, if you deployed Cloud Volumes ONTAP using any other VM type, you won
 
 . Cloud Volumes ONTAP can run on either a Reserved or On-demand VM instance from your cloud provider. Solutions that use other VM instance types aren't supported.
 
+. Single node deployments only support locally redundant storage (LRS) managed disks for Standard SSD and HDD and Premium SSD.
+
 === HA pairs with shared managed disks
 You can choose from the following configurations when deploying Cloud Volumes ONTAP as an HA pair in Azure.
 
@@ -176,6 +178,8 @@ a|
 * E80ids_v4 ^1,2,4^
 * L16s_v3 ^1,4,5^
 * L32s_v3 ^1,4,5^
+* L48s_v3 ^1,4,5^
+* L64s_v3 ^1,4,5^
 
 a|
 * E8ds_v4 ^4^
@@ -186,6 +190,8 @@ a|
 * E80ids_v4 ^1,2,4^
 * L16s_v3 ^1,4,5^
 * L32s_v3 ^1,4,5^
+* L48s_v3 ^1,4,5^
+* L64s_v3 ^1,4,5^
 
 a|
 * E8ds_v4 ^4^ 
@@ -194,6 +200,8 @@ a|
 * E80ids_v4 ^1,2,4^
 * L16s_v3 ^1,4,5^
 * L32s_v3 ^1,4,5^
+* L48s_v3 ^1,4,5^
+* L64s_v3 ^1,4,5^
 
 a|
 * E8ds_v4 ^4^
@@ -202,6 +210,8 @@ a|
 * E80ids_v4 ^1,2,4^
 * L16s_v3 ^1,4,5^
 * L32s_v3 ^1,4,5^
+* L48s_v3 ^1,4,5^
+* L64s_v3 ^1,4,5^
 
 | Supported disk types 5+| Managed disks
 
