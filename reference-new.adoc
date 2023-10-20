@@ -23,6 +23,10 @@ The 9.13.1 P2 and the 9.13.1 P3 patches are now available for Cloud Volumes ONTA
 * link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.13.1P3[View the list of bugs fixed in the P3 patch^] (NetApp Support Site login required).
 * link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.13.1P2[View the list of bugs fixed in the P2 patch^] (NetApp Support Site login required).
 
+== 9.13.1 P1 (3 October 2023)
+The 9.13.1 P1 patch is now available for Cloud Volumes ONTAP for all cloud providers if you have a Connector running version 3.9.26 or later. BlueXP will prompt you to upgrade your existing systems to this patch release.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.13.1P1[View the list of bugs fixed in the P1 patch^] (NetApp Support Site login required).
 
 == 9.13.1 GA (26 July 2023)
 The General Availability release of Cloud Volumes ONTAP 9.13.1 is now available in AWS, Azure, and Google Cloud. 
