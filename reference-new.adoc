@@ -72,11 +72,16 @@ The Release Candidate 1 of Cloud Volumes ONTAP 9.13.1 is now available in AWS, A
 A few FabricPool performance improvements might impact your tiered data in Cloud Volumes ONTAP in the following scenarios: 
 
 .Sequential read speed and tiering improvements
+
 Due to an improved read performance and tiering throughput in FabricPool, there might be a higher rate of `GET` and `PUT` operations in on-premises object stores. Ensure there's enough performance headroom for a seamless performance.
-.Aggressive Readahead functionality 
+
+.Aggressive Readahead functionality
+
 The `Aggressive Readahead` feature in FabricPool might increase the read operations at a file level, which in turn, can add up to the read costs and memory utilization in public cloud.
+
 .Cloud Write functionality
-This functionality enables NFS clients to write directly to the capacity tier in FabricPool. This feature has certain limitations and should be used with caution. For example, if you mix Cloud Write NFS traffic with non-cloud, regular ONTAP traffic, such as SnapMirror, the overall RPO (Recovery Point Objective) and RTO (Recovery Time Objective) in SnapMirror may be impacted.
+
+This functionality enables NFS clients to write directly to the capacity tier in FabricPool. This feature has certain limitations and should be used with caution. For example, if you mix Cloud Write NFS traffic with non-cloud, regular ONTAP traffic, such as SnapMirror, the overall Recovery Point Objective (RPO) and Recovery Time Objective (RTO) in SnapMirror may be impacted.
 
 == Upgrade notes
 
