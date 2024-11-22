@@ -69,7 +69,7 @@ The General Availability release of Cloud Volumes ONTAP 9.13.1 is now available 
 == 9.13.1 RC1 (26 June 2023)
 The Release Candidate 1 of Cloud Volumes ONTAP 9.13.1 is now available in AWS, Azure, and Google Cloud.
 
-A few FabricPool performance improvements might impact your tiered data in Cloud Volumes ONTAP in the following scenarios: 
+A few FabricPool performance improvements might impact your tiered data in Cloud Volumes ONTAP.
 
 .Sequential read speed and tiering improvements
 
@@ -81,7 +81,7 @@ The `Aggressive Readahead` feature in FabricPool might increase the read operati
 
 .Cloud Write functionality
 
-This functionality enables NFS clients to write directly to the capacity tier in FabricPool. This feature has certain limitations and should be used with caution. For example, if you mix Cloud Write NFS traffic with non-cloud, regular ONTAP traffic, such as SnapMirror, the overall Recovery Point Objective (RPO) and Recovery Time Objective (RTO) in SnapMirror may be impacted.
+This functionality enables NFS clients to write directly to the capacity tier in FabricPool. This feature has certain limitations and should be used with caution. For example, if Cloud Write NFS traffic is added to regular ONTAP traffic, such as SnapMirror, the overall Recovery Point Objective (RPO) and Recovery Time Objective (RTO) in SnapMirror may be impacted.
 
 == Upgrade notes
 
