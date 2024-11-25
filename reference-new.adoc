@@ -17,6 +17,11 @@ Cloud Volumes ONTAP 9.13.1 includes new enhancements.
 
 Additional features and enhancements are also introduced in the latest versions of BlueXP. See the https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html[BlueXP Release Notes^] for details.
 
+== 9.13.1 P12 (25 November 2024)
+The 9.13.1 P12 patch is now available for Cloud Volumes ONTAP for all cloud providers. BlueXP will prompt you to upgrade your existing systems to this patch release.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.13.1P12[View the list of bugs fixed in the P12 patch^] (NetApp Support Site login required).
+
 == 9.13.1 P11 (14 October 2024)
 The 9.13.1 P11 patch is now available for Cloud Volumes ONTAP for all cloud providers. BlueXP will prompt you to upgrade your existing systems to this patch release.
 
@@ -75,13 +80,19 @@ A few FabricPool performance improvements might impact your tiered data in Cloud
 
 Due to an improved read performance and tiering throughput in FabricPool, there might be a higher rate of `GET` and `PUT` operations in on-premises object stores. Ensure there's enough performance headroom for a seamless performance.
 
+To learn more, refer to the https://www.netapp.com/media/17239-tr-4598.pdf[FabricPool TR^]
+
 .Aggressive Readahead functionality
 
 The `Aggressive Readahead` feature in FabricPool might increase the read operations at a file level, which in turn, can add up to the read costs and memory utilization in public cloud.
 
+To learn more, refer to the ONTAP documentation: https://docs.netapp.com/us-en/ontap/fabricpool/enable-disable-aggressive-read-ahead-task.html#enable-aggressive-read-ahead-mode-during-volume-creation[Enable and disable aggressive read-ahead mode^]
+
 .Cloud Write functionality
 
 This functionality enables NFS clients to write directly to the capacity tier in FabricPool. This feature has certain limitations and should be used with caution. For example, if Cloud Write NFS traffic is added to regular ONTAP traffic, such as SnapMirror, the overall Recovery Point Objective (RPO) and Recovery Time Objective (RTO) in SnapMirror may be impacted.
+
+To learn more, refer to the ONTAP documentation: https://docs.netapp.com/us-en/ontap/fabricpool/enable-disable-volume-cloud-write-task.html[Enable and disable volumes to write directly to the cloud^]
 
 == Upgrade notes
 
