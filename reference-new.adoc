@@ -15,7 +15,7 @@ summary: Cloud Volumes ONTAP 9.13.1 includes a new enhancement.
 [.lead]
 Cloud Volumes ONTAP 9.13.1 includes new enhancements.
 
-Additional features and enhancements are also introduced in the latest versions of NetApp Console. See the Cloud Volumes ONTAP for details.
+Additional features and enhancements are also introduced in the latest versions of NetApp Console. See the link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html[Cloud Volumes ONTAP^] for details.
 
 == 9.13.1 P21HF1 (12 November 2026)
 The 9.13.1 P21HF1 patch is now available for Cloud Volumes ONTAP for all cloud providers. This patch is compatible with ONTAP hotfix for 9.13.1.
